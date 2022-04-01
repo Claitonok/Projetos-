@@ -1,0 +1,14 @@
+algoritmo "CONTADOR"
+var
+   VALOR, CONTADOR: INTEIRO
+inicio
+      CONTADOR <- 0
+      ESCREVA(" QUER CONTAR ATE QUANTO? ")
+      LEIA (VALOR)
+      ENQUANTO ( CONTADOR <= VALOR ) FACA
+         ESCREVAL( CONTADOR)
+      CONTADOR <- CONTADOR + 1
+     FIMENQUANTO
+     ESCREVAL(" TERMINEI DE CONTA ")
+
+fimalgoritmo
